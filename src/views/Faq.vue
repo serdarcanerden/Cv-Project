@@ -1,5 +1,5 @@
 <template>
-  <n-grid x-gap="50" :cols="1" item-responsive>
+  <n-grid class="faqInside" x-gap="50" :cols="1" item-responsive>
     <n-gi class="gridPlacement" span="200:2 400:2 600:2 800:1">
       <n-card
         :bordered="false"
@@ -97,6 +97,10 @@ export default {
 </script>
 
 <style>
+.faqInside {
+  margin-top: 5vh;
+  border-top: #f1f5f9 solid thin;
+}
 .n-collapse-transition {
   margin-top: 10px;
   margin-bottom: 10px;

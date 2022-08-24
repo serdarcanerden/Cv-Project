@@ -1,5 +1,5 @@
 <template>
-  <n-space vertical>
+  <n-space class="insideWriting" vertical>
     <n-layout has-sider class="layoutWriting">
       <n-layout-sider
         bordered
@@ -82,11 +82,18 @@ export default {
   color: #fff;
 }
 .n-layout-sider {
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: transparent !important;
 }
 .n-layout {
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: transparent !important;
+}
+</style>
+
+<style scoped>
+.insideWriting {
+  margin-top: 5vh;
+  border-top: #f1f5f9 solid thin;
 }
 </style>

@@ -311,7 +311,7 @@ export default {
 .routeName {
   position: absolute;
   top: 1.3%;
-  right: 6%;
+  left: 2%;
   font-size: 1rem;
   line-height: 1.4;
   text-transform: uppercase;
